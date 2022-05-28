@@ -14,10 +14,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Explore/>}/>
           <Route path='/Offers' element={<Offers/>}/>
-          <Route path='/Profile' element={<Profile/>}/>
-          <Route path='/SignIn' element={<SignIn/>}/>
-          <Route path='/SignUp' element={<SignUp/>}/>
-          <Route path='/ForgotPasswrod' element={<ForgotPasswrod/>}/>
+          <Route path='/Profile' element={<SignIn/>}/>
+          <Route path='/Sign-In' element={<SignIn/>}/>
+          <Route path='/Sign-Up' element={<SignUp/>}/>
+          <Route path='/Forgot-Passwrod' element={<ForgotPasswrod/>}/>
         </Routes>
         <Navbar />
       </Router>
